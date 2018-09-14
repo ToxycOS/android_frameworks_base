@@ -1029,6 +1029,16 @@ public class Build {
     public static final String FINGERPRINT = deriveFingerprint();
 
     /**
+     * TOXYC fingerprint
+     * @hide
+     */
+    public static final String PROP_TOXYC_FINGERPRINT = "com.toxyc.fingerprint";
+
+    /** @hide */
+    public static final String TOXYC_FINGERPRINT = SystemProperties.get(PROP_TOXYC_FINGERPRINT,
+            deriveFingerprint());
+
+    /**
      * Some devices split the fingerprint components between multiple
      * partitions, so we might derive the fingerprint at runtime.
      */
