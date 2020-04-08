@@ -42,4 +42,8 @@ public class ThemesUtils {
             "com.android.theme.darkgrey.system",
             "com.android.theme.darkgrey.systemui",
     };
+    public static final String[] MATERIAL_OCEAN = {
+            "com.android.theme.materialocean.system",
+            "com.android.theme.materialocean.systemui",
+    };
 }
