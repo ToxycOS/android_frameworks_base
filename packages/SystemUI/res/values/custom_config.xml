@@ -1,0 +1,5 @@
+<resources>
+
+    <bool name="config_display_vowifi">true</bool>
+
+</resources>
